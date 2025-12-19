@@ -1,0 +1,10 @@
+service:
+  name: "ws-core"
+
+grpc:
+  host: "localhost"
+  port: 9090
+
+input:
+  path: "D:/NGNs/hanoi/tdnv-hanoi/site/logs/spring-boot-logger.log"
+  state: "app.log.state"
