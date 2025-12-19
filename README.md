@@ -15,7 +15,6 @@ High-level flow:
 
 ## Architecture Diagram
 
-```mermaid
 graph LR
     subgraph Application_Services
         S1[Service A]
@@ -52,7 +51,7 @@ graph LR
 
     P --> E
     FE -->|REST API| P
-```
+
 
 ---
 
