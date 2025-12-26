@@ -12,10 +12,7 @@ High-level flow:
 * The processor also exposes **REST APIs** for a **Next.js** frontend to display dashboards and allow log queries.
 
 ---
-
 ## Architecture Diagram
-
-```mermaid
 graph LR
     subgraph Application_Services
         S1[Service A]
@@ -52,8 +49,6 @@ graph LR
 
     P --> E
     FE -->|REST API| P
-```
-
 ---
 
 ## Components
